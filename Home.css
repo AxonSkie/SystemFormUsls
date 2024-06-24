@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.container{
+    background-color: green;
+    height: 15vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-right: 100px;
+    float: left;
+    color: white;
+    margin-left: 100px;
+    
+
+}
+
+table{
+  border-color: white;
+}
+
+td{
+    padding: 10px;
+    border-color: white;
+}
+
+.container1{
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.img-1{
+    width: 75px;
+}
+
+
+.container3{
+    width: 100%;
+    min-height: 100px;
+    background-color: green;
+    display: flex;
+    position: relative;
+}
+
+.box1{
+   
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+    z-index: 5;
+
+}
+
+.box2{
+    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    color: white;
+    margin-left: 10px;
+}
+
+li{
+    text-decoration: none;
+    margin: 20px;
+    list-style-type: none;
+}
+.a-1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn-1{
+    background-color: transparent;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+   
+}
+
+.design{
+    width: 100%;
+    min-height: 40vh;
+    background-color: green;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    margin-left : -100px;
+    align-items: center;
+
+   
+}
+
+
+
+
+
+
+.view{
+    opacity: 1;
+    }
+
+    .view{
+        opacity: 1;
+        position: relative;
+        }
+form{
+    margin: 0;
+}
+
+
+.lasalle{
+    position: absolute;
+    animation: left-right 0.5s ease forwards;
+    
+   
+   
+
+}
+
+@keyframes left-right {
+
+    from{
+        transform: translateX(-500px);
+        opacity: 0.5;
+    }
+    
+
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
+a{
+    color: white;
+}
+
+
+
